@@ -24,5 +24,5 @@ $_SESSION['nombre'] = $usuario['nombre'];
 $_SESSION['correo'] = $usuario['correo'];
 $_SESSION['rol'] = $usuario['rol'];
 
-header('Location: perfil.php');
+header('Location: index.php');
 exit;
