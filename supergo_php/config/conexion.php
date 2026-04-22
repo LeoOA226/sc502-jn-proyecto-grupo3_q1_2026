@@ -3,7 +3,7 @@ $charset = 'utf8mb4';
 
 $candidatos = [
     [
-        'host' => getenv('DB_HOST') ?: 'mysql',
+        'host' => getenv('DB_HOST') ?: 'db',
         'dbname' => getenv('DB_NAME') ?: 'supergo',
         'usuario' => getenv('DB_USER') ?: 'root',
         'contrasena' => getenv('DB_PASS') ?: 'root',
