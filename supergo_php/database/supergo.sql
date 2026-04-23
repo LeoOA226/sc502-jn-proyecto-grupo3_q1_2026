@@ -1,6 +1,3 @@
-DROP DATABASE IF EXISTS supergo;
-CREATE DATABASE supergo;
-USE supergo;
 
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
